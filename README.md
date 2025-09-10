@@ -5,68 +5,87 @@ The project classifies reviews into Positive and Negative sentiments, visualizes
 
 # 📊 Features
 
-Sentiment analysis of Zomato customer reviews
+* iSentiment analysis of Zomato customer reviews
 
-Classification into Positive and Negative
+* Classification into Positive and Negative
 
-Interactive visualizations with Plotly
+* Interactive visualizations with Plotly
 
-Overall customer satisfaction trend analysis
+* Overall customer satisfaction trend analysis
 
-Preprocessed dataset with cleaned reviews
+* Preprocessed dataset with cleaned reviews
 
 # 🗂️ Dataset
 
-Source: Zomato customer reviews dataset
+* Source: Zomato customer reviews dataset
 
-Columns Used:
+* Columns Used:
 
-review → Customer review text
+   * review → Customer review text
 
-rating → Customer given rating (1–5)
+   * rating → Customer given rating (1–5)
 
-Preprocessing:
+* Preprocessing:
 
-Null value handling
+  * Null value handling
 
-Text cleaning
-
-Sentiment scoring
+  * Sentiment scoring
 
 # ⚙️ Technologies Used
 
-Python (Pandas, NumPy)
+  * Python (Pandas, NumPy)
 
-NLTK (VADER Sentiment Analyzer)
+  * NLTK (VADER Sentiment Analyzer)
 
-Plotly Express (interactive visualizations)
+  * Plotly Express (interactive visualizations)
 
-Jupyter Notebook
+  * Jupyter Notebook
 
 # 🚀 Methodology
 
-Import and clean dataset
+  * Import and clean dataset
 
-Apply VADER sentiment analysis
+  * Apply VADER sentiment analysis
 
-Generate sentiment scores (compound, positive, negative, neutral)
+  * Generate sentiment scores (compound, positive, negative, neutral)
 
-Classify into Positive / Negative sentiments
+  * Classify into Positive / Negative sentiments
 
-Visualize results using Plotly
+  * Visualize results using Plotly
 
 # 📈 Visualizations
 
-Sentiment Distribution (Pie Chart)
+* Sentiment Distribution (Pie Chart)
 
-Rating vs Sentiment (Bar Graph)
+* Rating vs Sentiment (Bar Graph)
 
-Overall Satisfaction Trend
+* Overall Satisfaction Trend
 
 # 📝 Results & Insights
 
-Majority of reviews were Positive, showing high customer satisfaction
+* Majority of reviews were Positive, showing high customer satisfaction
 
-Negative reviews mostly came from low ratings
+* Negative reviews mostly came from low ratings
 
-Zomato can use these insights to improve service & delivery
+* Zomato can use these insights to improve service & delivery
+
+# ▶️ How to Run
+
+* Clone the repository:
+
+git clone https://github.com/your-username/zomato-sentiment-analysis.git
+
+cd zomato-sentiment-analysis
+
+
+* Install dependencies:
+
+  pip install -r requirements.txt
+
+
+* Run the Jupyter Notebook:
+
+  jupyter notebook
+
+
+* Open zomato_sentiment_analysis.ipynb and execute cells
