@@ -73,7 +73,7 @@ The project classifies reviews into Positive and Negative sentiments, visualizes
 
 * Clone the repository:
 
-git clone https://github.com/your-username/zomato-sentiment-analysis.git
+git clone https://github.com/divya2010-maker/Zomato_food_Review_Analyzer/tree/main
 
 cd zomato-sentiment-analysis
 
